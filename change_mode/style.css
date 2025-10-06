@@ -1,0 +1,72 @@
+.dark_mode{
+  background: rgb(50,50,50);
+  color: rgb(215,215,215);
+}
+body{
+  transition: 1s;
+}
+#select{
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 1rem;
+  border: none;
+  background: rgba(100,100,100,0.8);
+  border: 2px solid;
+  box-shadow: 5px 5px 5px black;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+}
+.nav{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+.navDark{
+  border-bottom: 5px solid white;
+}
+.navigation{
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: bold
+}
+.list{
+  list-style: none;
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
+.special{
+  color: rgb(150,150,150);
+  text-shadow: 1px 1px 1px green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navigation #dark{
+  border: none;
+  border-radius: 1rem;
+  font-size: 25px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+.image{
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+}
+.porte-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.liste{
+  list-style: none;
+}
